@@ -1,3 +1,101 @@
 .App {
   text-align: center;
 }
+
+@font-face {
+  font-family: Montserrat;
+  src: url('Montserrat Regular 400.ttf') format('truetype');
+}
+
+body {
+  background-image: url('./images/background2.png');
+  display: flex;
+  justify-content: center;
+}
+
+.container-global {
+  align-items: center;
+  background-color: #1f1b4e;
+  border-radius: 10px;
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.9);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: Montserrat , sans-serif;
+  height: 102%;
+  width: 1600px;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 150%;
+}
+
+.container-global-planetas {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  justify-content: center;
+}
+
+.container-infos-planetas {
+  display: flex;
+  justify-content: center;
+}
+
+.card-planeta {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.foto-planeta {
+  width: 90%;
+}
+
+.container-global-missoes {
+  align-items: center;
+  background: #35315f;
+  border-radius: 30px;
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.9);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  width: 90%;
+}
+
+.container-infos-missoes {
+  width: 1350px;
+}
+
+.box-missao {
+  border: 1px solid white;
+  border-radius: 9px;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  width: 400px;
+}
+
+.box-1 {
+  align-items: center;
+  display: flex;
+  font-size: 130%;
+  height: 50px;
+  justify-content: center;
+  margin: 0;
+}
+
+.box-2 {
+  display: flex;
+  font-size: 70%;
+  justify-content: space-evenly;
+}
